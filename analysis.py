@@ -1,12 +1,19 @@
 import pandas as pd
+import seaborn as sb
 import matplotlib.pyplot as plt
 import numpy as np
+
 
 
 df = pd.read_csv("iris.csv")
 
 #plt.scatter(df['sepal_length'], df['sepal_width'])
 #plt.show()
+
+sb.set_style("whitegrid")
+sb.pairplot(df, hue ="species",height=3)
+plt.show
+
 
 plt.style.use('ggplot')
 plt.hist(df['sepal_length'])
