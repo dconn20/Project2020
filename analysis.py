@@ -13,10 +13,13 @@ plt.hist(df['sepal_length'])
 plt.xlabel('sepal_length')
 plt.show()
 plt.hist(df['sepal_width'])
+plt.xlabel('sepal_width')
 plt.show()
 plt.hist(df['petal_length'])
+plt.xlabel('petal_length')
 plt.show()
 plt.hist(df['petal_width'])
+plt.xlabel('petal_width')
 plt.show()
 
 #df.hist(column=["SepalLengthCm", "SepalWidthCm", "PetalLengthCm",
