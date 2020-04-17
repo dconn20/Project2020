@@ -1,7 +1,8 @@
 import pandas as pd
-import seaborn as sb
+import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas.testing as tm
 
 
 
@@ -10,9 +11,10 @@ df = pd.read_csv("iris.csv")
 #plt.scatter(df['sepal_length'], df['sepal_width'])
 #plt.show()
 
-sb.set_style("whitegrid")
-sb.pairplot(df, hue ="species",height=3)
-plt.show
+sns.set_style("whitegrid")
+sns.pairplot(df, hue ="species",height=3)
+plt.show()
+plt.savefig("pairplot.png")
 
 
 plt.style.use('ggplot')
