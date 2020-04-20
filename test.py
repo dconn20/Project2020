@@ -20,8 +20,11 @@ iris.max()
 iris.mean()
 iris.median()
 iris.std()
-
 summary = iris.describe()
 summary = summary.transpose()
 summary.head()
 print(summary)
+with open("iris.csv") as f:
+    with open("summary.txt", "w") as f1:
+        for line in f:
+            f1.write(summary)
