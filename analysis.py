@@ -11,6 +11,8 @@ df = pd.read_csv("iris.csv")
 #plt.scatter(df['sepal_length'], df['sepal_width'])
 #plt.show()
 
+
+
 sns.set_style("whitegrid")
 sns.pairplot(df, hue ="species",height=3)
 plt.show()
