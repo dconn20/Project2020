@@ -5,6 +5,23 @@
 This project is being undertaken as part of my final submission for the module 'Programming and Scripting' as part of my course ‘Higher Diploma in Computer Science with Data Analytics’. 
 The purpose of this project is to investigate ‘The Iris Flower Data Set’ and prove my understanding of the data set. I intend to research the data set and write documentation to support my findings. I will write code and run scripts within Python that I will use to investigate it and then provide written support of my views and knowledge of the data set.
 
+# Technology Used
+Anaconda is the standard platform for Python data science, leading in open source innova-tion for machine learning.[1]
+
+Visual Studio Code is a source-code editor developed by Microsoft for Windows, Linux and macOS.[2]
+
+Python Programming Language is an interpreted, high-level, general-purpose programming language[3]
+
+Matplotlib is a comprehensive library for creating static, animated, and interactive visuali-zations in Python.[4]
+
+Pandas is a software library written for the Python programming language for data manipu-lation and analysis.[5]
+
+NumPy is the fundamental package for scientific computing with Python[6]
+
+Seaborn is a Python visualization library based on matplotlib. It provides a high-level inter-face for drawing attractive statistical graphics.[7]
+
+GitHub is a web-based version-control and collaboration platform for software develop-ers.[8]
+
 
 
 # Summary
