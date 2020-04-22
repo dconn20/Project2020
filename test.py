@@ -4,7 +4,7 @@ import seaborn as sns
 import pandas as pd
 import sys 
 
-sys.stdout = open("summaryfile.txt", "w")
+sys.stdout = open("summary.txt", "w")
 
 iris=pd.read_csv("iris.csv")
 
@@ -14,7 +14,7 @@ iris.shape
 
 iris['species'].unique()
 
-#sys.stdout = open("summaryfile.txt", "w")
+#sys.stdout = open("summary.txt", "w")
 print(iris.groupby('species').size())
 
 

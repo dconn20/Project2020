@@ -3,43 +3,67 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas.testing as tm
+import sys 
 
 
+iris = pd.read_csv("iris.csv")
 
-df = pd.read_csv("iris.csv")
 
-#plt.scatter(df['sepal_length'], df['sepal_width'])
-#plt.show()
 
 # Summary
-with open("iris.csv") as f:
-    with open("summary.txt", "w") as f1:
-        for line in f:
-            f1.write(line)
-            print(f1)
+sys.stdout = open("summary.txt", "w")
+
+iris.columns = ['sepal_length', 'sepal_width' , 'petal_length', 'petal_width', 'species']
+
+iris.shape
+
+iris['species'].unique()
+
+print(iris.groupby('species').size())
+
+
+iris.min()
+iris.max()
+iris.mean()
+iris.median()
+iris.std()
+summary = iris.describe()
+summary = summary.transpose()
+summary.head()
+print(summary)
+
+byspecies = iris.groupby('species')
+table2 = byspecies.describe()
+pd.set_option('display.max_columns', None)
+print(table2)
+
+
+sys.stdout.close()
+
 
 
 
 # Pairplots
 sns.set_style("whitegrid")
-sns.pairplot(df, hue ="species",height=3)
-plt.show()
+sns.pairplot(iris, hue ="species",height=3)
 plt.savefig("pairplot.png")
+plt.show()
+#plt.savefig("pairplot.jpeg")
 
 
 
 # Histogram
 plt.style.use('ggplot')
-plt.hist(df['sepal_length'])
+plt.hist(iris['sepal_length'])
 plt.xlabel('sepal_length')
 plt.show()
-plt.hist(df['sepal_width'])
+plt.hist(iris['sepal_width'])
 plt.xlabel('sepal_width')
 plt.show()
-plt.hist(df['petal_length'])
+plt.hist(iris['petal_length'])
 plt.xlabel('petal_length')
 plt.show()
-plt.hist(df['petal_width'])
+plt.hist(iris['petal_width'])
 plt.xlabel('petal_width')
 plt.show()
 
