@@ -18,28 +18,17 @@ iris.columns = ['sepal_length', 'sepal_width' , 'petal_length', 'petal_width', '
 iris.shape
 
 iris['species'].unique()
-
 print(iris.groupby('species').size())
 
-
-iris.min()
-iris.max()
-iris.mean()
-iris.median()
-iris.std()
-summary = iris.describe()
-summary = summary.transpose()
-summary.head()
-print(summary)
+summary1 = iris.describe()
+print(summary1)
 
 byspecies = iris.groupby('species')
-table2 = byspecies.describe()
+summary2 = byspecies.describe()
 pd.set_option('display.max_columns', None)
-print(table2)
-
+print(summary2)
 
 sys.stdout.close()
-
 
 
 
@@ -48,7 +37,6 @@ sns.set_style("whitegrid")
 sns.pairplot(iris, hue ="species",height=3)
 plt.savefig("pairplot.png")
 plt.show()
-#plt.savefig("pairplot.jpeg")
 
 
 
