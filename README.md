@@ -20,7 +20,7 @@ NumPy is the fundamental package for scientific computing with Python[6]
 
 Seaborn is a Python visualization library based on matplotlib. It provides a high-level inter-face for drawing attractive statistical graphics.[7]
 
-GitHub is a web-based version-control and collaboration platform for software develop-ers.[8]
+GitHub is a web-based version-control and collaboration platform for software developers.[8]
 
 
 
@@ -56,6 +56,6 @@ To examine the differences across species, the same summary statistics were gene
 
  
 
-The statistics tables are a nice way of allowing us to view the data clearly and more easily.  Already we can see there is a big range in the size of the Sepal Length and Petal Length. The Petal length ranges from 1.0 - 6.9, meaning there is a difference of approx. 5.9cm be-tween the min and max values. This would be the category that covers the largest range of the data. Whereas the other categories range is as follows: Sepal Length - 3.6cm, Sepal Width - 2.4cm, Petal Width - 2.4cm.
+The statistics tables are a nice way of allowing us to view the data clearly and more easily.  Already we can see there is a big range in the size of the Sepal Length and Petal Length. The Petal length ranges from 1.0 - 6.9, meaning there is a difference of approx. 5.9cm between the min and max values. This would be the category that covers the largest range of the data. Whereas the other categories range is as follows: Sepal Length - 3.6cm, Sepal Width - 2.4cm, Petal Width - 2.4cm.
 
 
