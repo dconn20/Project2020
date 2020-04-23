@@ -76,4 +76,18 @@ Observations:
 Histograms illustrate the shape of the distribution of each feature per species and provide a more accurate depiction by showing a visual breakdown of where the data lies. By looking at the overall distribution of the data it is easy to see petal length and petal width do not have a normal distribution. This is because the Iris Setosa petal length and width are situated on the far left of the graph making it easy to separate Setosa from the other two species. By using sepal length and sepal width we can not separate one species from another as the distribution is over lapping.
 
 
+# Scatterplots
+Scatterplots are used to identify trends within the data. They plot data points on a horizontal and vertical axis to demonstrate how one variable is affected by another. The relationship between two variables is called their correlation.
+
+	IMAGE - CODE
+	
+	
+	IMAGE - PLOTS
+  
+
+Observations:
+
+Here we can see from the graphs that there seems to be a positive correlation between the length and width of all species but there is a distinct difference in size between the three species. By looking at Petal length and Petal width we can clearly see that the iris Setosa is undoubtedly smaller than the Versicolor and Virginica. This difference can be seen again with Sepal length and Sepal width. Once again there is an overlapping with the Versicolor and Virginica but in both cases the Virginica seems to be the largest of the three species.
+
+
 
