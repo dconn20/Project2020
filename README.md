@@ -87,7 +87,6 @@ Scatterplots are used to identify trends within the data. They plot data points 
 
 Observations:
 
-Here we can see from the graphs that there seems to be a positive correlation between the length and width of all species but there is a distinct difference in size between the three species. By looking at Petal length and Petal width we can clearly see that the iris Setosa is undoubtedly smaller than the Versicolor and Virginica. This difference can be seen again with Sepal length and Sepal width. Once again there is an overlapping with the Versicolor and Virginica but in both cases the Virginica seems to be the largest of the three species.
-
+Here we can see from the graphs that there seems to be a positive correlation between the length and width of all species but there is a particularly strong correlation between Petal length and Petal width. There is also a distinct difference in size between the three species and by looking at Petal length and Petal width we can clearly see that the iris Setosa is un-doubtedly smaller than the Versicolor and Virginica. This difference can be seen again with Sepal length and Sepal width. Once again there is an overlapping with the Versicolor and Virginica but in both cases the Virginica seems to be the largest of the three species.
 
 
