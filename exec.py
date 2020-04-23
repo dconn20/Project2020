@@ -7,19 +7,18 @@ iris=pd.read_csv("iris.csv")
 
 iris.columns = ['sepal_length', 'sepal_width' , 'petal_length', 'petal_width', 'species']
 
+# Violinplot
 
-#plt.scatter(iris['sepal_length'],['sepal_width'])
-#plt.title('Scatter plot')
-#plt.xlabel('petal_length')
-#plt.ylabel('petal_width')
-#plt.show()
+sns.set(style="whitegrid", palette="muted", rc={'figure.figsize':(11.7,8.27)})
 
-iris = sns.load_dataset('iris')
-sns.lmplot( x="petal_length" , y="petal_width" , data=iris, fit_reg=False, hue='species' , legend=False)
-plt.legend(loc='lower right')
+sns.violinplot(x="species", y="petal_length", palette="muted", data=iris)
 plt.show()
 
-iris = sns.load_dataset('iris')
-sns.lmplot( x="sepal_length" , y="sepal_width" , data=iris, fit_reg=False, hue='species' , legend=False)
-plt.legend(loc='lower right')
+sns.violinplot(x="species", y="petal_width", palette="muted", data=iris)
+plt.show()
+
+sns.violinplot(x="species", y="sepal_length", palette="muted", data=iris)
+plt.show()
+
+sns.violinplot(x="species", y="sepal_width", palette="muted", data=iris)
 plt.show()
