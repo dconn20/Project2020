@@ -59,3 +59,21 @@ To examine the differences across species, the same summary statistics were gene
 The statistics tables are a nice way of allowing us to view the data clearly and more easily.  Already we can see there is a big range in the size of the Sepal Length and Petal Length. The Petal length ranges from 1.0 - 6.9, meaning there is a difference of approx. 5.9cm between the min and max values. This would be the category that covers the largest range of the data. Whereas the other categories range is as follows: Sepal Length - 3.6cm, Sepal Width - 2.4cm, Petal Width - 2.4cm.
 
 
+# Histograms
+
+A histogram plot shows the underlying frequency distribution of a set of continuous data. I created the histograms for analysing each variable from the data set in Matplotlib using the following code.
+
+	IMAGE - CODE
+	
+	
+	
+	IMAGE - OUTPUT
+
+ 
+     
+Observations:
+
+Histograms illustrate the shape of the distribution of each feature per species and provide a more accurate depiction by showing a visual breakdown of where the data lies. By looking at the overall distribution of the data it is easy to see petal length and petal width do not have a normal distribution. This is because the Iris Setosa petal length and width are situated on the far left of the graph making it easy to separate Setosa from the other two species. By using sepal length and sepal width we can not separate one species from another as the distribution is over lapping.
+
+
+
