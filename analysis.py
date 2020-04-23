@@ -7,6 +7,7 @@ import sys
 
 
 iris = pd.read_csv("iris.csv")
+iris.columns = ['sepal_length', 'sepal_width' , 'petal_length', 'petal_width', 'species']
 
 
 
@@ -59,5 +60,19 @@ plt.xlabel('petal_width')
 plt.savefig('petal_width.hist.png')
 plt.show()
 
+
+# Scatterplots
+
+iris = sns.load_dataset('iris')
+sns.lmplot( x="petal_length" , y="petal_width" , data=iris, fit_reg=False, hue='species' , legend=False)
+plt.legend(loc='lower right')
+plt.savefig('scatter.petal.png')
+plt.show()
+
+iris = sns.load_dataset('iris')
+sns.lmplot( x="sepal_length" , y="sepal_width" , data=iris, fit_reg=False, hue='species' , legend=False)
+plt.legend(loc='lower right')
+plt.savefig('scatter.sepal.png')
+plt.show()
 
 
