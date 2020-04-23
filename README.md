@@ -135,4 +135,17 @@ Observations:
 
 It can be seen from the violinplots that the Iris Virginica has the highest median value be-tween the three species when it comes to Petal length, Petal width and Sepal length. The Iris Setosa shows the greatest median value for Sepal width and also shows a considerable dif-ference between when comparing its Sepal length and width with its Petal length and width. 
 
+# Swarmplots
+
+A swarm plot is a categorical scatterplot with non-overlapping points. This gives a better representation of the distribution of values, although it does not scale as well to large num-bers of observations. A swarm plot can be drawn on its own, but it is also a good comple-ment to a box or violin plot in cases where you want to show all observations along with some representation of the underlying distribution[15].
+ 	
+	IMAGE - CODE
+	
+	IMAGE - PLOT
+
+ 
+Observations:
+
+From the graph it is easy to again separate the Iris Setosa from the other two species in re-lation to Petal length and width. Iris Virginica has the greatest range for Sepal length, Petal length and Petal width while Sepal width shows a much shorter range between all three species. The overlapping with Sepal length and sepal width makes it difficult to separate the three species especially with Iris Virginica and Iris Versicolor.
+
 
