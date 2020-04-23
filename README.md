@@ -122,3 +122,17 @@ Observations:
 The boxplots show a wider range in data for Petal length and Petal width when compared with Sepal length and Sepal width. It can be seen that the Iris Virginica has the greatest range within Sepal length while the Iris Setosa has the biggest range of Sepal width. The range of Petal width is not great amongst the three species with Iris Setosa been very small in range when compared to the other two species.
 
 
+# Violinplots
+
+A voilin plot is used to visualise the distribution of the data and its probability density. The thick black bar in the center represents the interquartile range, the thin black line ex-tended from it represents the 95% confidence intervals, and the white dot is the median [14]. 
+
+	IMAGE - CODE
+	
+	IMAGE - PLOTS
+  
+   
+Observations:
+
+It can be seen from the violinplots that the Iris Virginica has the highest median value be-tween the three species when it comes to Petal length, Petal width and Sepal length. The Iris Setosa shows the greatest median value for Sepal width and also shows a considerable dif-ference between when comparing its Sepal length and width with its Petal length and width. 
+
+
