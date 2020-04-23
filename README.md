@@ -90,3 +90,20 @@ Observations:
 Here we can see from the graphs that there seems to be a positive correlation between the length and width of all species but there is a particularly strong correlation between Petal length and Petal width. There is also a distinct difference in size between the three species and by looking at Petal length and Petal width we can clearly see that the iris Setosa is un-doubtedly smaller than the Versicolor and Virginica. This difference can be seen again with Sepal length and Sepal width. Once again there is an overlapping with the Versicolor and Virginica but in both cases the Virginica seems to be the largest of the three species.
 
 
+# Pairplot
+
+Pairplots enable us to quickly see the relationships between variables across multiple di-mensions using scatterplots and histograms. It produces a matrix of relationships between each variable in your data allowing for an instant examination. The pairplot allow us to see the scatter plot between any two features within the data set.
+
+	IMAGE - CODE
+	
+	
+	IMAGE - PLOTS
+ 
+
+Observations:
+
+From a quick glance of the graphs it can be easily seen that the distribution of data for Iris Setosa is very different from Iris Versicolor and Iris Virginica again making it very easy to separate from the other two species. 
+
+There seems to be a positive trend between Sepal length and Petal length as the graph shows an uphill pattern from left to right. The same can be said for Petal length in relation to Sepal length and Petal width. Petal width also displays a strong positive relationship with Petal length in the graph.
+
+
