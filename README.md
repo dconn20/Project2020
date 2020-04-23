@@ -107,3 +107,18 @@ From a quick glance of the graphs it can be easily seen that the distribution of
 There seems to be a positive trend between Sepal length and Petal length as the graph shows an uphill pattern from left to right. The same can be said for Petal length in relation to Sepal length and Petal width. Petal width also displays a strong positive relationship with Petal length in the graph.
 
 
+# Boxplots
+Box plots are a type of chart often used in explanatory data analysis to visually show the dis-tribution of numerical data and skewness through displaying the data quartiles and averag-es. Box plots are useful as they provide a visual summary of the data enabling researchers to quickly identify mean values, the dispersion of the data set, and signs of skewness [13].
+
+	IMAGE - CODE
+	
+	
+	IMAGE - PLOTS
+ 
+
+    
+Observations:
+
+The boxplots show a wider range in data for Petal length and Petal width when compared with Sepal length and Sepal width. It can be seen that the Iris Virginica has the greatest range within Sepal length while the Iris Setosa has the biggest range of Sepal width. The range of Petal width is not great amongst the three species with Iris Setosa been very small in range when compared to the other two species.
+
+
