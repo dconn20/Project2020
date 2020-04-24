@@ -66,12 +66,17 @@ A histogram plot shows the underlying frequency distribution of a set of continu
 
 ![Hist.code](https://github.com/dconn20/Project2020/blob/master/Images/Hist.code.PNG?raw=true)
 	
-	
-	
-![Histograms](
+		
+![Histograms](https://github.com/dconn20/Project2020/blob/master/Images/sepal_length.hist.png)
 
+![Hist.2](https://github.com/dconn20/Project2020/blob/master/Images/sepal_width.hist.png)
+
+![Hist.3](https://github.com/dconn20/Project2020/blob/master/Images/petal_length.hist.png)
+
+![Hist.4](https://github.com/dconn20/Project2020/blob/master/Images/petal_width.hist.png)
  
-     
+ 
+ 
 Observations:
 
 Histograms illustrate the shape of the distribution of each feature per species and provide a more accurate depiction by showing a visual breakdown of where the data lies. By looking at the overall distribution of the data it is easy to see petal length and petal width do not have a normal distribution. This is because the Iris Setosa petal length and width are situated on the far left of the graph making it easy to separate Setosa from the other two species. By using sepal length and sepal width we can not separate one species from another as the distribution is over lapping.
@@ -80,10 +85,12 @@ Histograms illustrate the shape of the distribution of each feature per species 
 # Scatterplots
 Scatterplots are used to identify trends within the data. They plot data points on a horizontal and vertical axis to demonstrate how one variable is affected by another. The relationship between two variables is called their correlation.
 
-	IMAGE - CODE
+![Scatter.code](https://github.com/dconn20/Project2020/blob/master/Images/scatter.code.PNG)	
+
 	
-	
-	IMAGE - PLOTS
+![Sct.plot1](https://github.com/dconn20/Project2020/blob/master/Images/scatter.petal.png)
+
+![Sct.plot2](https://github.com/dconn20/Project2020/blob/master/Images/scatter.sepal.png)
   
 
 Observations:
@@ -95,10 +102,10 @@ Here we can see from the graphs that there seems to be a positive correlation be
 
 Pairplots enable us to quickly see the relationships between variables across multiple di-mensions using scatterplots and histograms. It produces a matrix of relationships between each variable in your data allowing for an instant examination. The pairplot allow us to see the scatter plot between any two features within the data set.
 
-	IMAGE - CODE
+![Pairplot.code](https://github.com/dconn20/Project2020/blob/master/Images/pairplot.code.PNG)
 	
 	
-	IMAGE - PLOTS
+![Pairplot](https://github.com/dconn20/Project2020/blob/master/Images/pairplot.png)
  
 
 Observations:
@@ -111,11 +118,16 @@ There seems to be a positive trend between Sepal length and Petal length as the 
 # Boxplots
 Box plots are a type of chart often used in explanatory data analysis to visually show the dis-tribution of numerical data and skewness through displaying the data quartiles and averag-es. Box plots are useful as they provide a visual summary of the data enabling researchers to quickly identify mean values, the dispersion of the data set, and signs of skewness [13].
 
-	IMAGE - CODE
+![Boxplot.code](https://github.com/dconn20/Project2020/blob/master/Images/boxplot.code.PNG)
 	
 	
-	IMAGE - PLOTS
- 
+![Bx.pl1](https://github.com/dconn20/Project2020/blob/master/Images/Boxplot.SL.png)
+
+![Bx.pl2](https://github.com/dconn20/Project2020/blob/master/Images/Boxplot.SW.png)
+
+![Bx.pl3](https://github.com/dconn20/Project2020/blob/master/Images/BoxplotPL.png)
+
+![Bx.pl4](https://github.com/dconn20/Project2020/blob/master/Images/BoxplotPW.png)
 
     
 Observations:
@@ -127,9 +139,15 @@ The boxplots show a wider range in data for Petal length and Petal width when co
 
 A voilin plot is used to visualise the distribution of the data and its probability density. The thick black bar in the center represents the interquartile range, the thin black line ex-tended from it represents the 95% confidence intervals, and the white dot is the median [14]. 
 
-	IMAGE - CODE
+![V.pl.code](https://github.com/dconn20/Project2020/blob/master/Images/violinplot.code.PNG)
 	
-	IMAGE - PLOTS
+![VP1](https://github.com/dconn20/Project2020/blob/master/Images/Violinplot_PL.png)
+
+![VP2](https://github.com/dconn20/Project2020/blob/master/Images/Violinplot_PW.png)
+
+![VP3](https://github.com/dconn20/Project2020/blob/master/Images/Violinplot_SL.png)
+
+![VP4](https://github.com/dconn20/Project2020/blob/master/Images/Violinplot_SW.png)
   
    
 Observations:
@@ -140,9 +158,10 @@ It can be seen from the violinplots that the Iris Virginica has the highest medi
 
 A swarm plot is a categorical scatterplot with non-overlapping points. This gives a better representation of the distribution of values, although it does not scale as well to large num-bers of observations. A swarm plot can be drawn on its own, but it is also a good comple-ment to a box or violin plot in cases where you want to show all observations along with some representation of the underlying distribution[15].
  	
-	IMAGE - CODE
+![Swarmplot.code](https://github.com/dconn20/Project2020/blob/master/Images/Swarmplot.code.PNG)
 	
-	IMAGE - PLOT
+
+![Swarmplot](https://github.com/dconn20/Project2020/blob/master/Images/Swarmplot.png)
 
  
 Observations:
