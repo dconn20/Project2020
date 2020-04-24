@@ -31,7 +31,7 @@ The data set consists of 50 samples from three different species of Iris, they a
 Two of the species, I. setosa and I. versicolor were collected on the Gaspé Peninsula, Quebec, Canada "all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus", and published by Edgar in 1935 [11]. It is presumed that the same apparatus and rigor were applied to the measurement of I. virginica before Edgar shared the data with the British statistician and biologist Sir Ronald Aylmer Fisher in 1936 [11]. 
 The data set was originally used by Fisher as an example for multivariate discriminate analyses but since then it has become one of the most widely used reference data sets for classification and prediction studies, and more recently for machine learning approaches to clustering, classification and pattern recognition [12].
     
-    ![Iris flowers](https://github.com/dconn20/Project2020/blob/master/Images/Iris.png)
+    ![Iris](https://github.com/dconn20/Project2020/blob/master/Images/Iris.png)
     
 
 # Exploring the Data
