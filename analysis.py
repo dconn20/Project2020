@@ -32,6 +32,16 @@ print(summary2)
 sys.stdout.close()
 
 
+
+# Pairplots
+
+sns.set_style("whitegrid")
+sns.pairplot(iris, hue ="species",height=3)
+plt.savefig("pairplot.png")
+plt.show()
+
+
+
 # Histogram
 
 plt.style.use('ggplot')
@@ -68,10 +78,5 @@ plt.savefig('scatter.sepal.png')
 plt.show()
 
 
-# Pairplots
 
-sns.set_style("whitegrid")
-sns.pairplot(iris, hue ="species",height=3)
-plt.savefig("pairplot.png")
-plt.show()
 
