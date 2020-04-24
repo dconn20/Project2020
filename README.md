@@ -3,7 +3,7 @@
 
 # Intro
 This project is being undertaken as part of my final submission for the module 'Programming and Scripting' as part of my course ‘Higher Diploma in Computer Science with Data Analytics’. 
-The purpose of this project is to investigate ‘The Iris Flower Data Set’ and prove my understanding of the data set. I intend to research the data set and write documentation to support my findings. I will write code and run scripts within Python that I will use to investigate it and then provide written support of my views and knowledge of the data set.
+The purpose of this project is to investigate ‘The Iris Flower Data Set’ and prove my understanding of the data set while using Python to research it. I intend to research the data set and write documentation to support my findings. I will write code and run scripts within Python that I will use to investigate it and then provide written support of my views and knowledge of the data set.
 
 # Technology Used
 Anaconda is the standard platform for Python data science, leading in open source innova-tion for machine learning.[1]
@@ -112,7 +112,7 @@ Observations:
 
 From a quick glance of the graphs it can be easily seen that the distribution of data for Iris Setosa is very different from Iris Versicolor and Iris Virginica again making it very easy to separate from the other two species. 
 
-There seems to be a positive trend between Sepal length and Petal length as the graph shows an uphill pattern from left to right. The same can be said for Petal length in relation to Sepal length and Petal width. Petal width also displays a strong positive relationship with Petal length in the graph.
+There seems to be a positive trend between Sepal length and Petal length as the graph shows an uphill pattern from left to right. The same can be said for Petal length in relation to Sepal length and Petal width. Petal width also displays a strong positive relationship with Petal length in the graph and makes it seem possible to be able to separate all three species. 
 
 
 # Boxplots
