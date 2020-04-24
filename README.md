@@ -30,30 +30,30 @@ The Iris flower data set or Fisher's Iris data set is a multivariate data set in
 The data set consists of 50 samples from three different species of Iris, they are: Iris Setosa, Iris Virginica and Iris Versicolor. Four features were measured from each sample: the length and the width of the sepals and petals, in centimetres. Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other [9]. 
 Two of the species, I. setosa and I. versicolor were collected on the Gaspé Peninsula, Quebec, Canada "all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus", and published by Edgar in 1935 [11]. It is presumed that the same apparatus and rigor were applied to the measurement of I. virginica before Edgar shared the data with the British statistician and biologist Sir Ronald Aylmer Fisher in 1936 [11]. 
 The data set was originally used by Fisher as an example for multivariate discriminate analyses but since then it has become one of the most widely used reference data sets for classification and prediction studies, and more recently for machine learning approaches to clustering, classification and pattern recognition [12].
-    
-    [Iris.png](https://github.com/dconn20/Project2020/blob/master/Images/Iris.png)
+
+![Iris.png](https://github.com/dconn20/Project2020/blob/master/Images/Iris.png)
     
 
 # Exploring the Data
 
 As a starting point I wanted to output some basic statistics about the data. I ran a script to output the number of different species contained in the data set. Then I used the pandas .describe module as it generates some descriptive statistics from the data set, allowing for us to view the Count, Min, Max, Mean, Median and Standard Deviation. 
-		
-    [Image](https://github.com/dconn20/Project2020/blob/master/code1.PNG)
+
+![Image](https://github.com/dconn20/Project2020/blob/master/code1.PNG)
     
     
- 
-    IMAGE - OUTPUT
+![Summary](https://github.com/dconn20/Project2020/blob/master/Images/Summary1.PNG?raw=true)
+
  
  
 
 To examine the differences across species, the same summary statistics were generated per species using the .groupby module on the categorical species variables.
 
 
-    IMAGE - CODE
+![Groupby](https://github.com/dconn20/Project2020/blob/master/Images/code2.PNG?raw=true)
     
     
  
-    IMAGE - OUTPUT
+![GroupSum](https://github.com/dconn20/Project2020/blob/master/Images/code3.PNG?raw=true)
 
  
 
@@ -64,11 +64,11 @@ The statistics tables are a nice way of allowing us to view the data clearly and
 
 A histogram plot shows the underlying frequency distribution of a set of continuous data. I created the histograms for analysing each variable from the data set in Matplotlib using the following code.
 
-	IMAGE - CODE
+![Hist.code](https://github.com/dconn20/Project2020/blob/master/Images/Hist.code.PNG?raw=true)
 	
 	
 	
-	IMAGE - OUTPUT
+![Histograms](
 
  
      
