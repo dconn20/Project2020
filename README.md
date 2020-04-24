@@ -158,3 +158,99 @@ From my investigations I believe that visual data is a much better platform from
 Throughout this project I have learned a huge amount in relation to programming and how it is used to analyse data sets. Before starting this course in January, I had no previous pro-gramming experience and found the weekly tasks to be quite challenging. This project really helped me to understand Python and its different libraries. I spent quite a bit of time run-ning, testing and altering code I had written in order to produce the correct results. I en-countered many errors over the course of this project but found solutions to each one along the way. I am happy with the content that I have produced as I found it both challenging and rewarding. I have achieved what I set out to do at the beginning of the project, which was to understand the data set and develop the skills needed to analyse it by writing and executing scripts within Python and its libraries. I have gained valuable experience using Pandas, Sea-born, Matplotlib and Numpy and learned how to create visual graphs such as histograms, scatterplots, pairplots, boxplots, violinplots and swarmplots. I also gained important experi-ence using Visual Studio Code and Github. 
 
 
+
+
+
+# REFERENCES:
+
+1.	https://www.anaconda.com/
+
+2.	https://code.visualstudio.com/
+
+3.	https://www.python.org/
+
+4.	https://matplotlib.org/
+
+5.	https://pandas.pydata.org/
+
+6.	https://cs231n.github.io/python-numpy-tutorial/
+
+7.	https://seaborn.pydata.org/
+
+8.	https://github.com/
+
+9.	https://medium.com/@avulurivenkatasaireddy/exploratory-data-analysis-of-iris-data-set-using-python-823e54110d2d
+
+10.	https://pythonhosted.org/bob/temp/bob.db.iris/doc/example.html
+
+11.	Anderson, E. (1936). The species problem in Iris. Annals of the Missouri Botanical Garden, 23(3), 457-509.
+
+12.	Runkler, T. A. (2012). Chapter 2: Data and Relations. Models and Algorithms for Intelligent Data Analysis. Vieweg and Teubner 		Verlag.
+
+13.	https://www.simplypsychology.org/boxplots.html 
+
+14.	https://datavizcatalogue.com/methods/violin_plot.html
+
+15.	https://kite.com/python/docs/seaborn.swarmplot
+
+
+
+# Bibliography:
+
+https://www.academia.edu/13069408/Report_on_Edgar_Anderson_s_Iris_Data_Analysis
+
+https://realpython.com/python-histograms/
+
+https://www.programming-techniques.com/2019/05/python-program-to-copy-the-contents-of-a-file-to-another-file.html
+
+https://www.datacamp.com/community/tutorials/histograms-matplotlib
+
+https://stackoverflow.com/questions/44119653/creating-a-boxplot-with-matplotlib
+
+https://rpubs.com/AjinkyaUC/Iris_DataSet
+
+https://medium.com/@avulurivenkatasaireddy/exploratory-data-analysis-of-iris-data-set-using-python-823e54110d2d
+
+https://kite.com/python/docs/sys.stdout
+
+https://www.codegrepper.com/code-examples/python/reading+and+writing+data+in+a+text+file+with+python
+
+https://www.geeksforgeeks.org/reading-writing-text-files-python/
+
+https://matplotlib.org/
+
+http://blog.bharatbhole.com/creating-boxplots-with-matplotlib/
+
+http://statweb.stanford.edu/~jtaylo/courses/stats202/visualization.html
+
+https://problemsolvingwithpython.com/06-Plotting-with-Matplotlib/06.04-Saving-Plots/
+
+https://rpubs.com/AjinkyaUC/Iris_DataSet
+
+https://www.sciencedirect.com/topics/mathematics/iris-data
+
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html
+
+https://datacarpentry.org/image-processing/05-creating-histograms/
+
+https://stackoverflow.com/questions/51458892/how-to-view-the-whole-table
+
+https://www.surveysystem.com/correlation.htm
+
+https://pythonspot.com/matplotlib-scatterplot/
+
+https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html
+
+https://kaggle.com/jchen2186/machine-learning-with-iris-dataset
+
+https://www.kaggle.com/danalexandru/simple-analysis-of-iris-dataset
+
+https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis.com
+
+https://www.kaggle.com/ekapylski/iris-dataset-visualization
+
+https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation
+
+
+
+
