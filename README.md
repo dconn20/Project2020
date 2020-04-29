@@ -1,13 +1,11 @@
 # Higher Diploma in Computer Science with Data Analytics
 
-# Programming and Scripting
-
+# Programming and Scripting Project 
+# April 2020
 
 
 # Damien Connolly
 # G00340321
-
-# Project April 2020
 
 
 # Intro
