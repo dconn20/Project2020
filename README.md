@@ -47,7 +47,7 @@ The data set was originally used by Fisher as an example for multivariate discri
 
 As a starting point I wanted to output some basic statistics about the data. I ran a script to output the number of different species contained in the data set. Then I used the pandas .describe module as it generates some descriptive statistics from the data set, allowing for us to view the Count, Min, Max, Mean, Median and Standard Deviation. 
 
-![Image](https://github.com/dconn20/Project2020/blob/master/code1.PNG?raw=true)
+![Code1](https://github.com/dconn20/Project2020/blob/master/Images/code1.PNG)
     
     
 ![Summary](https://github.com/dconn20/Project2020/blob/master/Images/Summary1.PNG?raw=true)
